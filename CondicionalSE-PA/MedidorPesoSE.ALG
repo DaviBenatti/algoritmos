@@ -1,0 +1,87 @@
+Algoritmo "MedidorPeso"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Anderson Silva Vanin
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Davi Lopes Benatti
+// Data atual  : 20/06/2021
+Var
+// Seção de Declarações das variáveis
+peso: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("qual o seu peso?")
+leia(peso)
+
+se (peso <= 46.27) então
+  escreval("Seu peso é classificado como PalhaLigeiro")
+fimse
+
+se ((peso >= 47.63) e (peso <= 48.99)) então
+  escreval("Seu peso é classificado como Palha")
+fimse
+
+se ((peso >= 48.99) e (peso <= 50.35)) então
+  escreval("Seu peso é classificado como MoscaLigeiro")
+fimse
+
+se ((peso >= 50.35) e (peso <= 51.71)) então
+  escreval("Seu peso é classificado como Mosca")
+fimse
+
+se ((peso >= 51.71) e (peso <= 53.52)) então
+  escreval("Seu peso é classificado como SuperMosca")
+fimse
+
+se ((peso >= 53.52) e (peso <= 55.34)) então
+  escreval("Seu peso é classificado como Galo")
+fimse
+
+se ((peso >= 55.34) e (peso <= 57.15)) então
+  escreval("Seu peso é classificado como SuperGalo")
+fimse
+
+se ((peso >= 57.15) e (peso <= 58.97)) então
+  escreval("Seu peso é classificado como Pena")
+fimse
+
+se ((peso >= 58.97) e (peso <= 61.23)) então
+  escreval("Seu peso é classificado como SuperPena")
+fimse
+
+se ((peso >= 61.23) e (peso <= 63.5)) então
+  escreval("Seu peso é classificado como Leve")
+fimse
+
+se ((peso >= 63.5) e (peso <= 66.68)) então
+  escreval("Seu peso é classificado como SuperLeve")
+fimse
+
+se ((peso >= 66.68) e (peso <= 69.85)) então
+  escreval("Seu peso é classificado como MeioMedio")
+fimse
+
+se ((peso >= 69.85) e (peso <= 73.03)) então
+  escreval("Seu peso é classificado como SuperMeioMedio")
+fimse
+
+se ((peso >= 73.03) e (peso <= 76.2)) então
+  escreval("Seu peso é classificado como Medio")
+fimse
+
+se ((peso >= 76.2) e (peso <= 79.38)) então
+  escreval("Seu peso é classificado como SuperMedio")
+fimse
+
+se ((peso >= 79.38) e (peso < 90.72)) então
+  escreval("Seu peso é classificado como MeioPesado")
+fimse
+
+se (peso = 90.72) então
+  escreval("Seu peso é classificado como Cruzador")
+fimse
+
+se (peso > 90.72) então
+  escreval("Meus parabéns, seu peso foi classificado no rank mais alto como PesoPesado")
+fimse
+
+Fimalgoritmo
